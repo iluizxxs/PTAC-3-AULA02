@@ -1,4 +1,4 @@
-import Link from "next/link"
+ink from "next/link"
 import styles from "./menu.module.css"
 import Image from "next/image";
 
@@ -8,7 +8,8 @@ export default function Menu(){
             <Image
             width={100}
             height={100}
-            src={'https://www.ifms.edu.br/marcaifms.png'}/>
+            
+            src={''}/>
 
             <nav>
                 <ul>
@@ -22,4 +23,3 @@ export default function Menu(){
             </nav>
         </header>
     );
-}
